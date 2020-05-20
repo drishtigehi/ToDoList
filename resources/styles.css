@@ -281,9 +281,12 @@ ul.todo#completed::before
   /* text-decoration: line-through; */
 }
 
+
+
 ul.todo#completed:empty::after
 {
-  content: 'You have unfinished business';
+  content: ' unfinished business';
+  margin: 0px;/*can comment out this*/
   
 }
 
